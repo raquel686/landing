@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" >
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-custom" id="navbarNav" style="justify-content: flex-end;">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#benefits">Acerca de <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comunity">Ayuda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contactos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#register">Registrarse</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <section>
+      <div class="main-banner">
+          <div class="content-banner">
+              <h1>¿Necesitas un técnico?<a href="#register" class="to-hover"> SBA</a></h1>
+              <p>Aqui encontraras al técnico que necesitas.
+                  También encontrarás trabajo si es un técnico
+              </p>
+              <a href="#register" class="btn btn-custom btn-lg">Soy un técnico</a>
+              <a href="#register" data-toggle="modal" data-target="#exampleModal" class="btn btn-custom btn-lg">Busco un técnico</a>
+          </div>
+      </div>
+  </section>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registrate</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nombre Completo">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control"  placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control"  placeholder="Direccion">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control"  placeholder="Telefono">
+            </div>
+            <div class="text-center">
+              <button class="btn btn-register" data-toggle="modal" data-dismiss="modal" data-target="#exampleModalRegisterDone" >Registrartse</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalRegisterDone" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Te registraste con éxito</h5>
+        </div>
+        <div class="modal-body">
+            <div class="text-center">
+              <button class="btn btn-register" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="benefits">
+    <div class="main-benefits">
+      <div class="container">
+        <h1 class="benefits-title">Nuestros Beneficios para técnicos</h1>
+        <p class="benefits-subtitle">Sabemos por todo el trabajo sacrificado que ustedes realizan , por eso queremos ofrecerles
+           muchos beneficios para que ustedes nos prefieran como su plataforma numero 1.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row content-benefits">
+              <div class="col-4">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="col-8">
+                <h3>¡Amplia tus oportunidades!</h3>
+                <p>Con esta aplicación crearás tus propias oportunidades de trabajo.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4">
+            <div class="row content-benefits">
+              <div class="col-4">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="col-8">
+                <h3>¡Seguridad!</h3>
+                <p>Se garantiza el acuerdo entre los clientes y usted
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row content-benefits">
+              <div class="col-4">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="col-8">
+                <h3>¡Cobro directo!</h3>
+                <p>Recibe el dinero automaticamente en tus cuentas bancarias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </section>
+  <section id="benefits_music">
+    <div class="main-benefits">
+      <div class="container">
+        <h1 class="benefits-title">Nuestros Beneficios para los clientes</h1>
+        <p class="benefits-subtitle">Con la aplicación podrás buscar a los técnicos que necesitas, filtrandolos por la especialización que necesites.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row content-benefits">
+              <div class="col-4">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="col-8">
+                <h3>¡Expertos al alcance de tu mano!</h3>
+                <p>Puedes buscar facilmente a los técnicos que necesitas, desde la comodidad de tu casa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row content-benefits">
+              <div class="col-4">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="col-8">
+                <h3>¡Pagos seguros y rapidos!</h3>
+                <p>Tu dinero esta protegido por nosotros para poder evitar fraudes. Nuestro sistema se encarga de hacer los giros de manera rápida.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row content-benefits">
+              <div class="col-4">
+                <i class="far fa-check-circle"></i>
+              </div>
+              <div class="col-8">
+                <h3>¡Medidas de segudad frente al COVID-19!</h3>
+                <p>Contamos con todas las medidas de seguridad necesarias para evitar contagios por COVID-19.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </section>
+  <section id="comunity">
+    <div class="main-comunity">
+      <div class="container">
+        <h1 class="comunity-title">Preguntas frecuentes</h1>
+        <p class="comunity-subtitle">
+          ¿Que versión de la aplicación se puede descargar?.
+        </p>
+        <p class="comunity-subtitle">
+          Se puenden descargar las 2 versiones dependiendo de tus necesitas, aqui estan las versiones: La versión de cliente es para las personas que buscan los servicios de un técnico y la versión para técnicos es para buscar trabajo.
+        </p>
+
+        <p class="comunity-subtitle">
+          ¿Podré ver los mensajes que me envian otros usuarios?.
+        </p>
+
+        <p class="comunity-subtitle">
+          En la opción de mensajes se pueden ver los chat de los usuarios.
+        </p>
+
+        <p class="comunity-subtitle">
+          ¿Cuales los distintos medios de pago que tien la aplicación?.
+        </p>
+
+        <p class="comunity-subtitle">
+          Los pagos se pueden efectuar por la tarjeta de crédito y/o débito.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="main-contact">
+      <div class="container">
+        <h1 class="contact-title">¡Contáctanos!</h1>
+        <p class="contact-subtitle">Si tienes alguna duda, comentario, pregunta,sugerenca o critica, no dudes 
+          en contactarnos,<br/> asi mejoraremos nuestra comunidad
+        </p>
+        <div class="contact-form" >
+          <form action="#contact" >
+            <div class="form-row">
+              <div class="col-lg-12 mb-3">
+                <textarea class="form-control" placeholder="Mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>             
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-4 mb-3">
+                <input type="email" class="form-control"  placeholder="Email"  required>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <input type="text" class="form-control" placeholder="Nombre Completo"  required>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <button class="btn btn-contact">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="download">
+    <div class="background-overlay py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 text-center justify-content-center align-self-center">
+                  <h1 style="margin-top: 100px" >
+                      ¡Descárgalo en tu celular ya!
+                  </h1>
+                  <p style="margin-top: 50px">
+                    Nuestra aplicación SBA App está diseñada con el fin de generar ingresos extras a nuestros colaboradores y
+                    ayudar a solucionar las necesidades de nuestros usuarios. Con nuestra App las personas que no dispongan de tiempo
+                    y necesitan ayuda para la solución de problemas de recursos técnicos básicos podrán comunicarse de una manera más
+                    eficiente con los técnicos encargados de solucionar ese problema.</p>
+                  <a href="https://play.google.com/store?hl=es_PE" class="btn  btn-outline-secondary btn-lg">Descarga en Android </a>
+                  <a href="https://www.apple.com/la/ios/app-store/" class="btn btn-outline-secondary btn-lg">Descarga en IOS </a>
+              </div>
+              <div class="col-md-2 render-image">
+                <img class="render-image-btn" src="assets/logos/both.png" alt="app">
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+  <section id="register">
+    <div class="main-register">
+      <div class="container">
+        <h1 class="register-title">Si eres un técnico, ¿que esperas?,<br/>
+          Ingresa aqui y conseguirás clientes
+        </h1>
+        <p class="register-subtitle">
+          Podrás conseguir clientes
+          todo con un par de clicks.
+        </p>
+        <div style="text-align: center;">
+          <button class="btn btn-register"  data-toggle="modal" data-target="#exampleModal">Registrate</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="main-footer">
+      <div class="content-footer mb-2">
+        <a href="#benefits">Acerca de</a>
+        <a href="#comunity">Ayuda</a>
+        <a href="#contact">Contáctanos</a>
+        <a href="#register">Registrarse</a>
+      </div>
+      <div class="text-center">
+        <p> &copy; Minka Group</p>
+      </div>
+    </div>    
+  </footer>
+</body>
+</html>
